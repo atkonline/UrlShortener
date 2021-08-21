@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener", "UrlShortener\UrlShortener.csproj", "{282B24AE-3F0D-461F-AC8A-14BAE7A1EE4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UrlShortener.Tests", "UrlShortener.Tests\UrlShortener.Tests.csproj", "{D6BFB60A-AD7D-4616-A8D8-62FE161F8C7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F41FB15A-BA74-43E7-A419-FA99101E13F0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282B24AE-3F0D-461F-AC8A-14BAE7A1EE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282B24AE-3F0D-461F-AC8A-14BAE7A1EE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282B24AE-3F0D-461F-AC8A-14BAE7A1EE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282B24AE-3F0D-461F-AC8A-14BAE7A1EE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BFB60A-AD7D-4616-A8D8-62FE161F8C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BFB60A-AD7D-4616-A8D8-62FE161F8C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BFB60A-AD7D-4616-A8D8-62FE161F8C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BFB60A-AD7D-4616-A8D8-62FE161F8C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2AD4E03-6CC8-4295-BE5D-980470CF0313}
+	EndGlobalSection
+EndGlobal

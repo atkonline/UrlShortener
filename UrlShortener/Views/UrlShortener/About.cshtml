@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+<div class="container">
+    <h2>Problem</h2>
+
+    <p>Number of domains a base36 (8 character) alphanumeric a-z 0-9 string can represent</p>
+    <p>
+        Combinations possible in 8-character string:
+        36*36*36*36*36*36*36*36 = 2,821,109,907,456
+    </p>
+    <p>
+        Background:  366.8 million domains where in existence in 2020.
+        The annual growth rate was 4.2 % - 15million
+    </p>
+
+    <h2>My design</h2>
+    <p>
+        <ul>
+            <li>every shortened url is 8 characters long</li>
+            <li>avoid duplicate short Urls</li>
+            <li>allow duplicate long urls</li>
+        </ul>
+    </p>
+    <p>
+        Shortening problem:
+        Tiny URL uses a string of length 8 lower case characters with each character in range of [a-z] or [0-9]
+    </p>
+    <p>
+        36^8 - 366,000,000 = 2,820,743,907,456 domains left that can be represented in an 8 character string
+    </p>
+</div>
+
+<div class="container">
+    <ul>
+        <li>Protocol http://, http://</li>
+        <li>mid level domain e.g google</li>
+        <li>slashes / path /</li>
+        <li>top level domains .co.uk .com .org . edu</li>
+        <li>file endings for resources .jpg, .pdf</li>
+        <li>top level domains .co.uk .com .org . edu</li>
+    </ul>
+</div>
+
+    <h2>Sample Urls minified by Tiny Url</h2>
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>https://filmdaily.co/wp-content/uploads/2020/04/lede-cat-memes.jpghttps://filmdaily.co/wp-content/uploads/2020/04/lede-cat-memes.jpg</td>
+            <td>https://tinyurl.com/2dvbw9b8</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+    <tr>
+        <th>Base10</th><th><b>Base36</b></th></tr></thead>
+         <tbody><tr><td>100</td><td>2S</td></tr><tr><td>1000</td>
+        <td>RS</td></tr><tr><td>10000</td><td>7PS</td></tr><tr>
+        <td>100000</td><td>255S</td></tr><tr><td>1000000</td>
+        <td>LFLS</td></tr><tr><td>1000000000</td><td>GJDGXS</td>
+    </tr>
+    </tbody>
+</table>

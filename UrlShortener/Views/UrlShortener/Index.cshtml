@@ -1,0 +1,16 @@
+﻿@model UrlShortenerViewModel
+
+<div class="text-center">
+</div>
+<h1>Url Shortener</h1>
+<form  method="post" asp-controller="UrlShortener" asp-action="index">
+    <div class="mb-3">
+    <label class="form-label" >Write your long url here</label>
+    <input type="text" class="form-control longUrl-input-text" id="longUrl" data-val="true" value="@Model.LongUrl" asp-for="LongUrl" aria-describedby="longUrl">
+    </div>
+    <div class="mb-3">
+        <label for="shortUrl" class="form-label">Your short Url</label>
+        <input class="form-control longUrl-input-text" id="shortUrl" type="text" data-val="true" value="@Model.ShortUrl" asp-for="ShortUrl">
+    </div>
+    <button type="submit" class="btn btn-primary float-sm-left">Submit</button>
+</form>
