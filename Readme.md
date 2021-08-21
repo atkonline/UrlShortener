@@ -6,7 +6,7 @@ url Shortener
 
 Url shortener excercise similar to tinyUrl and other services
 
-use case: take a long url and shorten it to an 8 character alphanumeric string [a-z] [0-9]
+use case: take a long url and shorten it to an 4-8 character alphanumeric string [a-z] [0-9]
 
 ## Getting Started
 
