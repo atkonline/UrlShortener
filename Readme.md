@@ -6,7 +6,7 @@ url Shortener
 
 Url shortener excercise similar to tinyUrl and other services
 
-use case: take a long url and shorten it to an 4-8 character alphanumeric string [a-z] [0-9]
+use case: take a long url and shorten it to an 8 character alphanumeric string [a-z] [0-9]
 
 ## Getting Started
 
@@ -20,41 +20,15 @@ Dapper
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+create a mssqlserver database called "UrlShortener" and add the connection string in the appsettings.json file
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+It may be nescesary to do a .net restore in the console as I renamed the project at one point
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+https://www.connectionstrings.com/store-and-read-connection-string-in-appsettings-json/
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
+Oliver Atkins
