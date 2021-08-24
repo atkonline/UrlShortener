@@ -13,7 +13,7 @@ namespace UrlShortener.Tests
         {
             var validator = new UrlValidator();
             var validUrls = new List<string> { "http://www.google.com", "www.google.com", "google.com" };
-            var invalidUrls = new List<string> { "http://www.google.comhttp://www.google.com", "www.go.....ogle.com", "go''gle.com" };
+            var invalidUrls = new List<string> { "http://www.google.comhttp://www.google.com", "www.go...ogle.com", "go''gle.com" };
 
             foreach (var url in validUrls)
             {

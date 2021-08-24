@@ -17,7 +17,7 @@ namespace UrlShortener.Dapper
 
     public class UrlRepository : IUrlRepository
     {
-        private string _dbConnection { get; }// "Server=DESKTOP-R7ESHCH;Database=UrlShortener;Trusted_Connection=True;";
+        private string _dbConnection { get; }
 
         private readonly IConfiguration _configuration;
         private UrlHasher _urlHasher { get; set; }
