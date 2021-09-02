@@ -1,22 +1,15 @@
-# Project Title
-
-url Shortener
+# Url Shortener
 
 ## Description
 
 Url shortener excercise similar to tinyUrl and other services
 
-use case: take a long url and shorten it to an 8 character alphanumeric string [a-z] [0-9]
-
-## Getting Started
+Use case: take a long url and shorten it to an 8 character alphanumeric string [a-z] [0-9]
 
 ### Dependencies
 
-Dapper Orm for sql queries
-Dapper Simple crud
 SqlClient
 Dapper
-
 
 ### Installing
 
